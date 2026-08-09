@@ -72,8 +72,8 @@ The application follows a six-layer modular architecture:
 
 ```
 guardianai/
-├── app/                   # Application core, workflow controller, session manager
-├── behavior/               # Keyboard, mouse, scroll monitoring & event aggregation
+├── app/                     # Application core, workflow controller, session manager
+├── behavior/                # Keyboard, mouse, scroll monitoring & event aggregation
 ├── ai/                      # Feature engineering, training, inference, trust engine
 ├── data/                    # SQLite manager, repositories, migrations
 ├── security/                # Encryption, secure storage, integrity, audit logging
